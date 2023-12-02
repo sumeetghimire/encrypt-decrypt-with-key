@@ -23,5 +23,8 @@ Require this package in your composer.json and update composer.
 
 <h2>Example How to use</h2>
 
-<code style="color🚙"> use SumeetGhimire\EncryptDecryptWithKey\EncryptionHelper;
-  <code/>
+<code style="color🚙"> use SumeetGhimire\EncryptDecryptWithKey\EncryptionHelper<code/>
+<code style="color🔺"> 
+   $encryptedString = EncryptionHelper::encryptString('test');
+  $drcyptedString = EncryptionHelper::decryptString( $encryptedString);
+  return   $drcyptedString  //return test  <code/>
