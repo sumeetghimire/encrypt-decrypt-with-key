@@ -18,7 +18,4 @@ Laravel
 
 Require this package in your composer.json and update composer. 
 
-composer require sumeetghimire/encrypt-decrypt-with-key:dev-main
-
-
-<code>here</code>
+<code>composer require sumeetghimire/encrypt-decrypt-with-key:dev-main</code>
