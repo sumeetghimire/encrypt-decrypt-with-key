@@ -10,12 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-
     "require": {
         "php": "^8.1",
-        "laravel/framework": "^8|^9|^10"
+        "laravel/framework": "^8.0|^9.0|^10.0"
     },
-    
     "autoload": {
         "psr-4": {
             "SumeetGhimire\\EncryptDecryptWithKey\\": "src/"
@@ -27,5 +25,11 @@
                 "SumeetGhimire\\EncryptDecryptWithKey\\EncryptDecryptWithKeyServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sumeetghimire/encrypt-decrypt-with-key"
+        }
+    ]
 }
