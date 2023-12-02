@@ -19,3 +19,9 @@ Laravel
 Require this package in your composer.json and update composer. 
 
 <code>composer require sumeetghimire/encrypt-decrypt-with-key:dev-main</code>
+
+
+<h2>Example How to use</h2>
+
+<code style="color🚙"> use SumeetGhimire\EncryptDecryptWithKey\EncryptionHelper;
+  <code/>
