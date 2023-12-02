@@ -15,6 +15,7 @@ This package is maintained by Sumeet Ghimire.
 
 
 Laravel
-Require this package in your composer.json and update composer. This will download the package and the dompdf + fontlib libraries also.
+
+Require this package in your composer.json and update composer. 
 
 composer require sumeetghimire/encrypt-decrypt-with-key:dev-main
