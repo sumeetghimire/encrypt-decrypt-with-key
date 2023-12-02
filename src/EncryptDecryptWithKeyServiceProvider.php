@@ -46,12 +46,17 @@ class EncryptDecryptWithKeyServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    protected function generateDefaultEncryptionKey()
-    {
+   protected function generateDefaultEncryptionKey()
+{
+    // Check if the key already exists in the .env file
+    if (!config('encrypt-decrypt.key')) {
         $key = bin2hex(random_bytes(16));
 
+        // Append the new key to the .env file
         file_put_contents(base_path('.env'), PHP_EOL . "ENCRYPT_KEY={$key}", FILE_APPEND);
 
+        // Set the key in the configuration
         config(['encrypt-decrypt.key' => $key]);
     }
+}
 }
