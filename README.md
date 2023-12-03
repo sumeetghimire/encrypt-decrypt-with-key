@@ -24,7 +24,7 @@
 
   <p>Require this package in your <code>composer.json</code> and update composer.</p>
 
-  <code>composer require sumeetghimire/encrypt-decrypt-with-key</code>
+  <code><p>composer require sumeetghimire/encrypt-decrypt-with-key</p></code>
 
   <h2>Example How to use</h2>
 
