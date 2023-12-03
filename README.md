@@ -34,14 +34,12 @@
     return $decryptedString; // Returns 'test'
   </pre>
 </code>
-
   <p>In .env key will be auto generated change as per your requirement</p>
   <code>
     <pre>
       ENCRYPT_KEY=8141b227d15377e8249b4c2cd42df4a7
   </pre>
 </code>
-
 </body>
 
 </html>
