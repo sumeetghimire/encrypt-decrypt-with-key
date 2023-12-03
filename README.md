@@ -24,11 +24,14 @@
 
   <p>Require this package in your <code>composer.json</code> and update composer.</p>
 
-  <code>composer require sumeetghimire/encrypt-decrypt-with-key</code>
+  <code>
+  composer require sumeetghimire/encrypt-decrypt-with-key
+  </code>
 
   <h2>Example How to use</h2>
 
   <code>
+    
     use SumeetGhimire\EncryptDecryptWithKey\EncryptionHelper;
 
     $encryptedString = EncryptionHelper::encryptString('test');
