@@ -25,10 +25,9 @@
   <p>Require this package in your <code>composer.json</code> and update composer.</p>
 
 <pre class="notranslate"><code>composer require sumeetghimire/encrypt-decrypt-with-key</code></pre>
-  <h2>Example How to use</h2>
 
-  <code>
-    <pre>
+  <h2>Example How to use</h2>
+  <code><pre>
     use SumeetGhimire\EncryptDecryptWithKey\EncryptionHelper;
     $encryptedString = EncryptionHelper::encryptString('test');
     $decryptedString = EncryptionHelper::decryptString($encryptedString);
