@@ -28,16 +28,13 @@
   <h2>Example How to use</h2>
 
   <code>
-    
+    <pre>
     use SumeetGhimire\EncryptDecryptWithKey\EncryptionHelper;
-
     $encryptedString = EncryptionHelper::encryptString('test');
     $decryptedString = EncryptionHelper::decryptString($encryptedString);
-
     return $decryptedString; // Returns 'test'
-  </code>
-
-
+  </pre>
+</code>
 </body>
 
 </html>
