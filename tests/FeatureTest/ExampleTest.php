@@ -9,7 +9,7 @@ use SumeetGhimire\EncryptDecryptWithKey\EncryptionHelper;
 class ExampleTest extends TestCase
 {
     /**
-     * A basic feature test example.
+     * A basic feature test example test.
      *
      * @return void
      */
