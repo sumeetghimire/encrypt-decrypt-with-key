@@ -23,7 +23,6 @@ class EncryptDecryptWithKeyServiceProvider extends ServiceProvider
             $this->generateDefaultEncryptionKey();
         }
         
-        // Additional boot logic can be added here
     }
 
     /**
