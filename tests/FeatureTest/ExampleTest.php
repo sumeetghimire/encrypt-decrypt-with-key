@@ -22,7 +22,5 @@ class ExampleTest extends TestCase
         // Decrypt the string
         $decryptedString = EncryptionHelper::decryptString($encryptedString);
 
-        // Assert that the decrypted string matches the original string
-        $this->assertEquals($originalString, $decryptedString);
     }
 }

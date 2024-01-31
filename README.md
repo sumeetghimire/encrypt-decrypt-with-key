@@ -1,30 +1,45 @@
-# encrypt-decrypt-with-key
-Laravel EncryptDecryptWithKey Package
-
-Configuration
-You can customize the package configuration by modifying the config/encrypt-decrypt.php file.
-
-License
-The Laravel EncryptDecryptWithKey package is open-sourced software licensed under the MIT license.
-
-Support
-For any issues or suggestions, please open an issue on GitHub.
-
-Credits
-This package is maintained by Sumeet Ghimire.
+<!DOCTYPE html>
+<html lang="en">
 
 
-Laravel
+<body>
 
-Require this package in your composer.json and update composer. 
+  <h1>EncryptDecryptWithKey</h1>
 
-<code>composer require sumeetghimire/encrypt-decrypt-with-key:dev-main</code>
+  <h2>Laravel EncryptDecryptWithKey Package</h2>
 
+  <h3>Configuration</h3>
+  <p>You can customize the package configuration by modifying the <code>config/encrypt-decrypt.php</code> file.</p>
 
-<h2>Example How to use</h2>
+  <h3>License</h3>
+  <p>The Laravel EncryptDecryptWithKey package is open-sourced software licensed under the MIT license.</p>
 
-<code style="color🚙"> use SumeetGhimire\EncryptDecryptWithKey\EncryptionHelper<code/>
-<code style="color🔺"> 
-   $encryptedString = EncryptionHelper::encryptString('test');
-  $drcyptedString = EncryptionHelper::decryptString( $encryptedString);
-  return   $drcyptedString  //return test  <code/>
+  <h3>Support</h3>
+  <p>For any issues or suggestions, please open an issue on <a href="https://github.com/sumeetghimire/encrypt-decrypt-with-key">GitHub</a>.</p>
+
+  <h3>Credits</h3>
+  <p>This package is maintained by Sumeet Ghimire.</p>
+
+  <h2>Laravel</h2>
+
+  <p>Require this package in your <code>composer.json</code> and update composer.</p>
+
+<pre class="notranslate"><code>composer require sumeetghimire/encrypt-decrypt-with-key</code></pre>
+
+  <h2>Example How to use</h2>
+  <code><pre>
+    use SumeetGhimire\EncryptDecryptWithKey\EncryptionHelper;
+    $encryptedString = EncryptionHelper::encryptString('test');
+    $decryptedString = EncryptionHelper::decryptString($encryptedString);
+    return $decryptedString; // Returns 'test'
+  </pre>
+</code>
+  <p>In .env key will be auto generated change as per your requirement</p>
+  <code>
+    <pre>
+      ENCRYPT_KEY=8141b227d15377e8249b4c2cd42df4a7
+  </pre>
+</code>
+</body>
+
+</html>
