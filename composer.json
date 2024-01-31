@@ -1,5 +1,6 @@
 {
     "name": "sumeetghimire/encrypt-decrypt-with-key",
+    "version": "1.0.3",
     "description": "A Laravel package for encrypting and decrypting strings with a key",
     "type": "library",
     "license": "MIT",
