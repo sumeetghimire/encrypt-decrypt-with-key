@@ -6,7 +6,17 @@
 
   <h1>EncryptDecryptWithKey</h1>
 
-  <h2>Laravel EncryptDecryptWithKey Package</h2>
+  <h2>Laravel EncryptDecryptWithKey Package - Version 1.0.5</h2>
+  
+  <h3>🚀 Key Generation Fix</h3>
+  <p><strong>Fixed Issue:</strong> The package was previously generating new encryption keys on every request, which caused performance issues and potential data corruption.</p>
+  
+  <p><strong>What was fixed:</strong></p>
+  <ul>
+    <li>Added key caching to prevent repeated environment variable reads</li>
+    <li>Improved service provider to only generate keys once during installation</li>
+    <li>Enhanced error handling and key validation</li>
+  </ul>
 
   <h3>Configuration</h3>
   <p>You can customize the package configuration by modifying the <code>config/encrypt-decrypt.php</code> file.</p>
@@ -34,6 +44,14 @@
     return $decryptedString; // Returns 'test'
   </pre>
 </code>
+  
+  <h3>Key Management</h3>
+  <ul>
+    <li><strong>Automatic Generation:</strong> The package will automatically generate a secure key if none exists</li>
+    <li><strong>Key Caching:</strong> Keys are cached in memory for performance</li>
+    <li><strong>Key Rotation:</strong> Use <code>EncryptionHelper::clearCache()</code> to clear cached keys when rotating</li>
+  </ul>
+  
   <p>In .env key will be auto generated change as per your requirement</p>
   <code>
     <pre>

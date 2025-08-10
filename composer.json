@@ -1,7 +1,7 @@
 {
     "name": "sumeetghimire/encrypt-decrypt-with-key",
-    "version": "1.0.4",
-    "description": "A Laravel package for encrypting and decrypting strings with a key",
+    "version": "1.0.5",
+    "description": "A Laravel package for encrypting and decrypting strings with a key (Fixed: Prevents repeated key generation)",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SumeetGhimire\\EncryptDecryptWithKey\\EncryptDecryptWithKeyServiceProvider"
+                "Sumeetghimire\\EncryptDecryptWithKey\\EncryptDecryptWithKeyServiceProvider"
             ]
         }
     },
